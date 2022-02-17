@@ -20,7 +20,7 @@ function compute()
     //display results 
         document.getElementById("result").innerHTML= "If you deposit <b>" +principal+
           "</b>,\<br\>at an interest rate of <b>"+rate+"% </b> \<br\>You will receive " +
-          "an amount of <b>"+interest+"</b>,\<br\>in the year <b>"+year+"</b>\<br\>"
+          "an amount of <b>"+interest+"</b>,\<br\>in the year "+year+"\<br\>"
 
     
 }
